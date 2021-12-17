@@ -6,7 +6,7 @@ exports.handler = async (event) => {
     
     const params = JSON.parse(event.body);
     
-    response.body = JSON.stringify(params);
+    response.body = JSON.stringify(params.param1);
     
     
     /*
