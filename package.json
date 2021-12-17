@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/malifpy/lambda-functions/issues"
   },
-  "homepage": "https://github.com/malifpy/lambda-functions#readme"
+  "homepage": "https://github.com/malifpy/lambda-functions#readme",
+  "dependencies": {
+    "exact-math": "^2.2.3"
+  }
 }

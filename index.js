@@ -1,3 +1,9 @@
+const exactMath = require('exact-math');
+
+function calc(formula) {
+    return exactMath.formula(formula);
+}
+
 exports.handler = async (event) => {
     // TODO implement
     const response = {
@@ -6,7 +12,11 @@ exports.handler = async (event) => {
     
     const params = JSON.parse(event.body);
     
-    response.body = JSON.stringify(params.param1);
+    if (params.func === "Calculator") {
+        response.body = JSON.stringify(calc(params.formula));
+    } else {
+        response.body = JSON.stringify("No Input");
+    }
     
     
     /*
