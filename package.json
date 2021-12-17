@@ -1,0 +1,20 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malifpy/lambda-functions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malifpy/lambda-functions/issues"
+  },
+  "homepage": "https://github.com/malifpy/lambda-functions#readme"
+}
